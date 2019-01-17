@@ -36,6 +36,7 @@ nav {
   border-bottom: 5px solid #FFFFFF;
 }
 
+/*style for main specifies a block display, text properties, padding, margins, rounded borders and shadow */
 main {
   display: block;
   font-family: Verdana, Arial, sans-serif;
@@ -48,6 +49,7 @@ main {
   box-shadow: 12px 12px 12px #404040;
 }
 
+/*style for footer specifies font size, text alignment, margins */
 footer {
   font-size: .70em;
   text-align: center;
@@ -59,7 +61,15 @@ footer {
   padding-right: 20px;
 }
 
-ul{
+ul {
   margin-bottom: 50px;
   list-style-position: inside;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding-bottom: 20px;
 }
