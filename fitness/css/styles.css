@@ -2,74 +2,74 @@
 
 /*style for body specifies a background color*/
 body {
-  background-color: #FFFF99;
+  background-color      : #FFFF99;
 }
 
 /*style for container centers the page and set the elements width*/
 #container {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width                 : 80%;
+  margin-left           : auto;
+  margin-right          : auto;
 }
 
 /*style for header specifies top and bottom margins, background color, rounded color, shadow and alignment*/
 header {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  box-shadow: 12px 12px 12px #404040;
-  text-align: center;
+  margin-top            : 10px;
+  margin-bottom         : 20px;
+  background-color      : #FFFFFF;
+  border-radius         : 10px;
+  box-shadow            : 12px 12px 12px #404040;
+  text-align            : center;
 }
 
 /*style for navigation specifies text properties, padding, margins, borders */
 nav {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.25em;
-  font-weight: bold;
-  text-align: center;
-  padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  border-top: 5px solid #FFFFFF;
-  border-bottom: 5px solid #FFFFFF;
+  font-family           : Georgia, "Times New Roman", serif;
+  font-size             : 1.25em;
+  font-weight           : bold;
+  text-align            : center;
+  padding               : 15px;
+  margin-top            : 10px;
+  margin-bottom         : 10px;
+  border-radius         : 20px;
+  border-top            : 5px solid #FFFFFF;
+  border-bottom         : 5px solid #FFFFFF;
 }
 
 /*style for main specifies a block display, text properties, padding, margins, rounded borders and shadow */
 main {
-  display: block;
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 1em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-  box-shadow: 12px 12px 12px #404040;
+  display               : block;
+  font-family           : Verdana, Arial, sans-serif;
+  font-size             : 1em;
+  margin-top            : 20px;
+  margin-bottom         : 10px;
+  padding               : 20px;
+  border-radius         : 10px;
+  background-color      : #FFFFFF;
+  box-shadow            : 12px 12px 12px #404040;
 }
 
-/*style for footer specifies font size, text alignment, margins */
+/*style for footer specifies font size, text align, margins */
 footer {
-  font-size: .70em;
-  text-align: center;
-  margin-top: 20px;
+  font-size             : .70em;
+  text-align            : center;
+  margin-top            : 20px;
 }
 
 .equip {
-  float: left;
-  padding-right: 20px;
+  float                 : left;
+  padding-right         : 20px;
 }
 
 ul {
-  margin-bottom: 50px;
-  list-style-position: inside;
+  margin-bottom         : 50px;
+  list-style-position   : inside;
 }
 
 dt {
-  font-weight: bold;
+  font-weight           : bold;
 }
 
 dd {
-  padding-bottom: 20px;
+  padding-bottom        : 20px;
 }
