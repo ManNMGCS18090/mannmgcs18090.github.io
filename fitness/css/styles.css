@@ -66,40 +66,33 @@ nav li a {
 .desktop {
   display: none;
 }
-/*style for main specifies a block display, text properties, padding, margins, rounded borders and shadow */
+
+/*style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
 main {
   display               : block;
   font-family           : Verdana, Arial, sans-serif;
   font-size             : 1em;
-  margin-top            : 20px;
-  margin-bottom         : 10px;
-  padding               : 20px;
-  border-radius         : 10px;
+  margin-top            : 0.5em;
+  padding               : 1em;
+  border-radius         : 1em;
   background-color      : #FFFFFF;
-  box-shadow            : 12px 12px 12px #404040;
+  border-top: solid 0.2em #009933;
+  border-bottom: solid 0.2em #009933;
 }
 
 /*style for footer specifies font size, text align, margins */
 footer {
   font-size             : .70em;
   text-align            : center;
-  margin-top            : 20px;
+  margin-top            : 2em;
 }
 
+/*style hides the tablet class*/
+.tablet {
+  display: none;
+}
+
+/*style rule specifies to not display the equip class*/
 .equip {
-  float                 : left;
-  padding-right         : 20px;
-}
-
-ul {
-  margin-bottom         : 50px;
-  list-style-position   : inside;
-}
-
-dt {
-  font-weight           : bold;
-}
-
-dd {
-  padding-bottom        : 20px;
+  display: none;
 }
