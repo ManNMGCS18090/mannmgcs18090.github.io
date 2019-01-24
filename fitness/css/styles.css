@@ -19,28 +19,43 @@ img {
   margin-right          : auto;
 }
 
-/*style for header specifies top and bottom margins, background color, rounded color, shadow and alignment*/
+/*style for header specifies top margin, background color, rounded corners and center-aligns content*/
 header {
-  margin-top            : 10px;
-  margin-bottom         : 20px;
+  margin-top            : 0.2em;
   background-color      : #FFFFFF;
-  border-radius         : 10px;
-  box-shadow            : 12px 12px 12px #404040;
+  border-radius         : 0.5em;
   text-align            : center;
 }
 
-/*style for navigation specifies text properties, padding, margins, borders */
+/*style for the nav specifies text properties */
 nav {
   font-family           : Georgia, "Times New Roman", serif;
   font-size             : 1.25em;
   font-weight           : bold;
   text-align            : center;
-  padding               : 15px;
-  margin-top            : 10px;
-  margin-bottom         : 10px;
-  border-radius         : 20px;
-  border-top            : 5px solid #FFFFFF;
-  border-bottom         : 5px solid #FFFFFF;
+}
+
+/*style specifies padding and margins for unordered list */
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/*style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the nav*/
+nav li {
+  background-color: #009933;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* style changes nav link text color to white and removes the underlines*/
+
+nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /*style for main specifies a block display, text properties, padding, margins, rounded borders and shadow */
