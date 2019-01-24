@@ -57,7 +57,15 @@ nav li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+/*style display the mobile class*/
+.mobile{
+  display: inline;
+}
 
+/*style hides the desktop*/
+.desktop {
+  display: none;
+}
 /*style for main specifies a block display, text properties, padding, margins, rounded borders and shadow */
 main {
   display               : block;
