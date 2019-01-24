@@ -5,9 +5,16 @@ body {
   background-color      : #FFFF99;
 }
 
+/*style to create a fluid image*/
+img {
+  max-width:            100%;
+}
+
+/* style for mobile layout */
+
 /*style for container centers the page and set the elements width*/
 #container {
-  width                 : 80%;
+  width                 : 100%;
   margin-left           : auto;
   margin-right          : auto;
 }
