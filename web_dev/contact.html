@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Barney Company</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="scripts/myFunctions.js" type="text/javascript"></script>
+
+    <script>
+
+    </script>
+  </head>
+  <body>
+
+    <div id="container">
+
+    <!-- Use the header area for the website name or logo -->
+    <header>
+      <a href="index.html"> <img src="images/barney_logo.png" alt="Barney Logo" width="300" height="200"> </a>
+    </header>
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website  -->
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li class="dropdown-show1"><a href="service.html">SERVICES</a></li>
+        <li class="dropdown-show">
+          <div class="dropdown">
+            <a href="service.html">SERVICES</a>
+            <div class="dropdown-content" >
+              <a href="luxury_design.html">Luxury Morden Desgin</a>
+              <a href="responsive_web.html">Responsive Web Design</a>
+              <a href="mobile_web.html">Web Design for Mobile</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Page Banner -->
+    <div id="banner" class="desktop">
+      <hr>
+      <img src="images/homebanner.png" alt="Home Banner Image">
+      <hr>
+    </div>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+
+      <form action="web_design.php" method="post"><!-- Start Form -->
+        <h2><u>CONSULT AND CONTACT</u></h2>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id = "fName">
+
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id = "lName">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <p>I would like more information about:</p>
+        <ul>
+          <li><input type="checkbox" name="luxury_wd" id="luxury_wd" value="luxury_wd" class="chkbx">Luxury Web Design</li>
+          <li><input type="checkbox" name="responsive_wd" id="responsive_wd" value="responsive_wd" class="chkbx">Responsive Web Design</li>
+          <li><input type="checkbox" name="web_mobile" id="web_mobile" value="web_mobile" class="chkbx">Web Design for Mobile</li>
+        </ul>
+
+        <label for="reference">Referral Source:</label>
+        <select name="reference" id="reference">
+          <option value="ad">Advertisement</option>
+          <option value="friend">Friend</option>
+          <option value="google">Google</option>
+          <option value="social">Social Media</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="questions">Questions?</label>
+        <textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+
+        <input type="submit" id="submit" value ="Submit" class="btn" onclick="tyAlert()">
+        <input type="reset" id="reset" value="Reset Form" class="btn">
+      </form>
+      <p>We are located at:<br>
+      27112 Mar<br>
+      Locket, GA 85524</p>
+
+      <p>Phone Number</p>
+      <p><a class="mobile" href="tel:0009998888">(000) 999-8888</a>
+      <span class="desktop">(000)999-8888</span> </p>
+
+      <p>Email Address</p>
+      <p><a href="mailto:barneywebdesign@gmail.com" class="contact">barneywebdesign@gmail.com</a></p>
+
+    </main>
+
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+
+      <hr>
+
+      <div id="copyright">
+        <p>&copy; Copyright 2019. All Rights Reserved.<br>
+      <a href="mailto:barneywebdesign@gmail.com">barneywebdesign@gmail.com</a></p>
+    </div>
+
+    <div id="social">
+      <p>connect with us:</p>
+      <p><a href="https://www.facebook.com/barneywebdesign"><img src="images/fblogo.png" alt="Facebook Logo"></a>
+      <a href="https://www.twitter.com/barneywebdesign"><img src="images/twitterlogo.png" alt="Twitter Logo"></a></p>
+    </div>
+    </footer>
+
+    </div>
+
+  </body>
+</html>
